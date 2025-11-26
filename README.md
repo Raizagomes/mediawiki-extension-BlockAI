@@ -19,7 +19,34 @@ Every request is evaluated against a set of eval-rules and decision is made base
 
 ## Configuration
 
-* `$wgBlockAIThreshold = 1.0;` - the setting can be used to adjust the threshold for marking a request as spammy. The default value is 1.0, which means that request is only considered spammy if the total evaluation score is greater than 1. Every evaluation rule may contribute its own weight to the total score of the request being evaluated. By tuninig up this threshold value you can adjust how many evaluations the request must fail before it is considered spammy. Setting this to `1.0` guarantees that the request will be blocked as soon as any evaluation rule fails (as all the bundled evaluation rules has weight of `1.0`). Setting this to `2.0` would allow some of the evaluations to pass before the request is blocked.
+```php
+$wgBlockAIThreshold = 1.0;
+```
+
+The setting can be used to adjust the threshold for marking a request as spammy. The default value is 1.0. Every
+evaluation rule may have its own weight, with the default weight being 1 for all the embedded evaluation rules.
+
+Every request starts with score if `1.0`. The formula for calculating the final score is:
+
+```php
+$score = $score * ( 1 - $eval->weight() );
+```
+
+And the final check is performed like that:
+
+```php
+if ( $score < $this->threshold ) {
+    // block the request
+}
+```
+
+Thus, when the total request score falls below the threshold, the request is blocked.
+
+At the moment, all the default evaluation rules have a weight of 1, thus you can either disable the blocks completely
+by setting the threshold to `0` or enable the blocks by setting it to `1`. Any other values would take no effect until
+custom evaluation rules are added with wights < `1.0`
+
+During request evaluation, every evaluation rule
 
 ## Embedded evaluation rules
 
