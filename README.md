@@ -10,7 +10,7 @@ The extension enforces a set of rules that are intended to block AI crawlers and
 your wiki with requests to expensive pages like Special:RecentChanges and Special:RecentChangesLinked.
 
 The extension evaluates only requests coming from anonymous users and ignores logged-in users completely.
-Every request is evaluated against a set of eval-rules and decision is made based on the request evaluation results.
+Every request is evaluated against a set of eval-rules, and decision is made based on the request evaluation results.
 
 ## Installation
 
@@ -64,4 +64,4 @@ https://github.com/vedmaka/mediawiki-extension-BlockAISample for more details an
 
 ## Blocked requests
 
-For the requests that were blocked the extension forced an early [HTTP 418 I am a teapot](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/418) response.
+For the requests that were blocked the extension forces an early [HTTP 418 I am a teapot](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/418) response.
