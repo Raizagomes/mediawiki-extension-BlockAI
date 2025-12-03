@@ -44,7 +44,7 @@ Thus, when the total request score falls below the threshold, the request is blo
 
 At the moment, all the default evaluation rules have a weight of 1, thus you can either disable the blocks completely
 by setting the threshold to `0` or enable the blocks by setting it to `1`. Any other values would take no effect until
-custom evaluation rules are added with wights < `1.0`
+custom evaluation rules are added with weight < `1.0`
 
 During request evaluation, every evaluation rule
 
